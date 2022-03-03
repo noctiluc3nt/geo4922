@@ -1,5 +1,5 @@
 ## Use remote image
-docker run --rm -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work <>
+docker run --rm -p 8888:8888 -v $PWD/notebooks:/home/jovyan/work metos-uio/geo4922
 
 ## Build the image locally and run it
 docker build . -t geo4922
